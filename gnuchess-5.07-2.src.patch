@@ -1,0 +1,10 @@
+diff -urN -x CYGWIN-PATCHES -x 'aclocal.m4*' -x ltmain.sh -x 'config.*' -x depcomp -x install-sh -x missing -x mkinstalldirs -x autom4te.cache -x '*compile' -x 'intltool*.in' -x 'xml-i18n-*.in' -x '*.pyc' -x '*.mo' -x '*.gmo' -x ABOUT-NLS -x Makevars.template -x COPYING -x INSTALL -x '*.orig' -x '*.rej' -x '*~' -x '*.temp' -x texinfo.tex -x ylwrap -x 'Makefile.in*' -x configure -x gnome-doc-utils.make -x intltool.m4 -x omf.make -x xmldocs.make origsrc/gnuchess-5.07/configure.ac src/gnuchess-5.07/configure.ac
+--- origsrc/gnuchess-5.07/configure.ac	2003-06-30 05:26:49.000000000 -0500
++++ src/gnuchess-5.07/configure.ac	2006-07-14 15:15:19.178625000 -0500
+@@ -1,6 +1,5 @@
+ dnl Process this file with autoconf to produce a configure script.
+ AC_INIT(src/atak.c)
+-AC_PREREQ(2.13)
+ AM_INIT_AUTOMAKE(gnuchess, 5.07)
+ AM_CONFIG_HEADER(src/config.h)
+ 

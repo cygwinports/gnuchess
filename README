@@ -1,0 +1,71 @@
+gnuchess
+------------------------------------------
+GNU chess gaming engine and command line program.
+Also includes a component for using with X11 chess programs as
+front-ends.
+
+Runtime requirements:
+  cygwin-1.5.20-1
+  libreadline6-5.1-5
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.20-1
+  autoconf2.5-2.59-2
+  automake1.9-1.9.6-1
+  binutils-20050610-1
+  bison-2.1-1
+  cygport-0.2.2-1
+  flex-2.5.33-1
+  gawk-3.1.5-2
+  gcc-core-3.4.4-1
+  make-3.80-1
+  sed-4.1.5-1
+
+Canonical website:
+  http://www.gnu.org/software/chess/
+
+Canonical download:
+  http://ftp.gnu.org/pub/gnu/chess/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gnuchess-5.07-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gnuchess-5.07-X.cygport all
+
+This will create:
+  /usr/src/gnuchess-5.07-X-src.tar.bz2
+  /usr/src/gnuchess-5.07-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/gnuchess.exe
+  /usr/bin/gnuchessx
+  /usr/share/doc/Cygwin/gnuchess-5.07.README
+  /usr/share/doc/gnuchess-5.07/AUTHORS
+  /usr/share/doc/gnuchess-5.07/COPYING
+  /usr/share/doc/gnuchess-5.07/ChangeLog
+  /usr/share/doc/gnuchess-5.07/INSTALL
+  /usr/share/doc/gnuchess-5.07/NEWS
+  /usr/share/doc/gnuchess-5.07/README
+  /usr/share/doc/gnuchess-5.07/TODO
+
+------------------
+
+Port Notes:
+
+----- version 5.07-2 -----
+Rebuilt for updated cygwin and readline.
+
+----- version 5.07-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

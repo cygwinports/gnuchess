@@ -1,0 +1,6 @@
+category: Games
+requires: cygwin libreadline6
+sdesc: "GNU chess gaming engine and command line program"
+ldesc: "GNU chess gaming engine and command line program.
+Also includes a component for using with X11 chess programs as
+front-ends."
