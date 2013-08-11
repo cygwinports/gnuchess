@@ -1,4 +1,0 @@
-DESCRIPTION="GNU Chess engine"
-HOMEPAGE="http://www.gnu.org/software/chess/"
-SRC_URI="http://ftp.gnu.org/pub/gnu/chess/${P}.tar.gz
-         http://ftp.gnu.org/pub/gnu/chess/${P}.tar.gz.sig"

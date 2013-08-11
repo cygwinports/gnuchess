@@ -1,0 +1,10 @@
+NAME="gnuchess"
+VERSION=6.0.3
+RELEASE=1
+CATEGORY="Games"
+SUMMARY="GNU chess gaming engine"
+DESCRIPTION="GNU chess gaming engine and command line program. Also includes
+a component for using with X11 chess programs as front-ends."
+HOMEPAGE="http://www.gnu.org/software/chess/"
+SRC_URI="mirror://gnu/chess/${NAME}-${VERSION}.tar.gz
+         mirror://gnu/chess/${NAME}-${VERSION}.tar.gz.sig"
