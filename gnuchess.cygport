@@ -1,5 +1,5 @@
 NAME="gnuchess"
-VERSION=6.0.3
+VERSION=6.2.2
 RELEASE=1
 CATEGORY="Games"
 SUMMARY="GNU chess gaming engine"
